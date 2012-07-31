@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E058647B15C0B7FC00168416 /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = E058647A15C0B7FB00168416 /* Scene.m */; };
+		E058648215C0C02A00168416 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = E058648115C0C02A00168416 /* Entity.m */; };
+		E058648615C0C7F600168416 /* IntroScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E058648515C0C7F600168416 /* IntroScene.m */; };
+		E058648915C0F69700168416 /* Sprite.m in Sources */ = {isa = PBXBuildFile; fileRef = E058648815C0F69700168416 /* Sprite.m */; };
+		E0D967C515C5E98B00ECD837 /* fragment.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E0D967C115C5E98B00ECD837 /* fragment.glsl */; };
+		E0D967C615C5E98B00ECD837 /* vertex.glsl in Resources */ = {isa = PBXBuildFile; fileRef = E0D967C215C5E98B00ECD837 /* vertex.glsl */; };
+		E0D967C715C5E98B00ECD837 /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D967C415C5E98B00ECD837 /* GLProgram.m */; };
+		E0D967D815C77ADC00ECD837 /* ProgramManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D967D715C77ADC00ECD837 /* ProgramManager.m */; };
+		E0D967DB15C7843100ECD837 /* TextureCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D967DA15C7843100ECD837 /* TextureCache.m */; };
+		E0E8C5FB152154750070E115 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E8C5FA152154750070E115 /* UIKit.framework */; };
+		E0E8C5FD152154750070E115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E8C5FC152154750070E115 /* Foundation.framework */; };
+		E0E8C5FF152154750070E115 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E8C5FE152154750070E115 /* CoreGraphics.framework */; };
+		E0E8C607152154750070E115 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E8C606152154750070E115 /* main.m */; };
+		E0E8C60B152154750070E115 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E8C60A152154750070E115 /* AppDelegate.m */; };
+		E0E8C60E152154750070E115 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0E8C60C152154750070E115 /* MainStoryboard.storyboard */; };
+		E0E8C611152154750070E115 /* Steve.m in Sources */ = {isa = PBXBuildFile; fileRef = E0E8C610152154750070E115 /* Steve.m */; };
+		E0E8C61D152159620070E115 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E8C61C152159620070E115 /* OpenGLES.framework */; };
+		E0E8C61F1521596E0070E115 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0E8C61E1521596E0070E115 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E058647915C0B7FB00168416 /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		E058647A15C0B7FB00168416 /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		E058648015C0C02A00168416 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
+		E058648115C0C02A00168416 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
+		E058648415C0C7F600168416 /* IntroScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroScene.h; sourceTree = "<group>"; };
+		E058648515C0C7F600168416 /* IntroScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroScene.m; sourceTree = "<group>"; };
+		E058648715C0F69700168416 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sprite.h; sourceTree = "<group>"; };
+		E058648815C0F69700168416 /* Sprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sprite.m; sourceTree = "<group>"; };
+		E058648A15C0F92700168416 /* Zissou2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zissou2d.h; sourceTree = "<group>"; };
+		E0D967C115C5E98B00ECD837 /* fragment.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fragment.glsl; sourceTree = "<group>"; };
+		E0D967C215C5E98B00ECD837 /* vertex.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vertex.glsl; sourceTree = "<group>"; };
+		E0D967C315C5E98B00ECD837 /* GLProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLProgram.h; sourceTree = "<group>"; };
+		E0D967C415C5E98B00ECD837 /* GLProgram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLProgram.m; sourceTree = "<group>"; };
+		E0D967D615C77ADB00ECD837 /* ProgramManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgramManager.h; sourceTree = "<group>"; };
+		E0D967D715C77ADC00ECD837 /* ProgramManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgramManager.m; sourceTree = "<group>"; };
+		E0D967D915C7843100ECD837 /* TextureCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureCache.h; sourceTree = "<group>"; };
+		E0D967DA15C7843100ECD837 /* TextureCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureCache.m; sourceTree = "<group>"; };
+		E0E8C5F6152154750070E115 /* Zissou2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zissou2d.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E8C5FA152154750070E115 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E0E8C5FC152154750070E115 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E0E8C5FE152154750070E115 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E0E8C602152154750070E115 /* Zissou2d-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Zissou2d-Info.plist"; sourceTree = "<group>"; };
+		E0E8C606152154750070E115 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0E8C608152154750070E115 /* Zissou2d-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zissou2d-Prefix.pch"; sourceTree = "<group>"; };
+		E0E8C609152154750070E115 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0E8C60A152154750070E115 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0E8C60D152154750070E115 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E0E8C60F152154750070E115 /* Steve.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Steve.h; sourceTree = "<group>"; };
+		E0E8C610152154750070E115 /* Steve.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Steve.m; sourceTree = "<group>"; };
+		E0E8C61C152159620070E115 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		E0E8C61E1521596E0070E115 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0E8C5F3152154750070E115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E8C61F1521596E0070E115 /* GLKit.framework in Frameworks */,
+				E0E8C61D152159620070E115 /* OpenGLES.framework in Frameworks */,
+				E0E8C5FB152154750070E115 /* UIKit.framework in Frameworks */,
+				E0E8C5FD152154750070E115 /* Foundation.framework in Frameworks */,
+				E0E8C5FF152154750070E115 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E058648315C0C62E00168416 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				E0E8C609152154750070E115 /* AppDelegate.h */,
+				E0E8C60A152154750070E115 /* AppDelegate.m */,
+				E058648415C0C7F600168416 /* IntroScene.h */,
+				E058648515C0C7F600168416 /* IntroScene.m */,
+			);
+			name = Test;
+			path = SteveZissou;
+			sourceTree = "<group>";
+		};
+		E0E8C5EB152154750070E115 = {
+			isa = PBXGroup;
+			children = (
+				E0E8C601152154750070E115 /* Supporting Files */,
+				E058648315C0C62E00168416 /* Test */,
+				E0E8C600152154750070E115 /* Zissou2d */,
+				E0E8C5F9152154750070E115 /* Frameworks */,
+				E0E8C5F7152154750070E115 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0E8C5F7152154750070E115 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0E8C5F6152154750070E115 /* Zissou2d.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0E8C5F9152154750070E115 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0E8C61E1521596E0070E115 /* GLKit.framework */,
+				E0E8C61C152159620070E115 /* OpenGLES.framework */,
+				E0E8C5FA152154750070E115 /* UIKit.framework */,
+				E0E8C5FC152154750070E115 /* Foundation.framework */,
+				E0E8C5FE152154750070E115 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0E8C600152154750070E115 /* Zissou2d */ = {
+			isa = PBXGroup;
+			children = (
+				E0D967C115C5E98B00ECD837 /* fragment.glsl */,
+				E0D967C215C5E98B00ECD837 /* vertex.glsl */,
+				E0D967C315C5E98B00ECD837 /* GLProgram.h */,
+				E0D967C415C5E98B00ECD837 /* GLProgram.m */,
+				E0D967D615C77ADB00ECD837 /* ProgramManager.h */,
+				E0D967D715C77ADC00ECD837 /* ProgramManager.m */,
+				E0D967D915C7843100ECD837 /* TextureCache.h */,
+				E0D967DA15C7843100ECD837 /* TextureCache.m */,
+				E0E8C60C152154750070E115 /* MainStoryboard.storyboard */,
+				E0E8C60F152154750070E115 /* Steve.h */,
+				E0E8C610152154750070E115 /* Steve.m */,
+				E058647915C0B7FB00168416 /* Scene.h */,
+				E058647A15C0B7FB00168416 /* Scene.m */,
+				E058648015C0C02A00168416 /* Entity.h */,
+				E058648115C0C02A00168416 /* Entity.m */,
+				E058648715C0F69700168416 /* Sprite.h */,
+				E058648815C0F69700168416 /* Sprite.m */,
+				E058648A15C0F92700168416 /* Zissou2d.h */,
+			);
+			name = Zissou2d;
+			path = SteveZissou;
+			sourceTree = "<group>";
+		};
+		E0E8C601152154750070E115 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0E8C602152154750070E115 /* Zissou2d-Info.plist */,
+				E0E8C606152154750070E115 /* main.m */,
+				E0E8C608152154750070E115 /* Zissou2d-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = SteveZissou;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0E8C5F5152154750070E115 /* Zissou2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0E8C614152154750070E115 /* Build configuration list for PBXNativeTarget "Zissou2d" */;
+			buildPhases = (
+				E0E8C5F2152154750070E115 /* Sources */,
+				E0E8C5F3152154750070E115 /* Frameworks */,
+				E0E8C5F4152154750070E115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zissou2d;
+			productName = SteveZissou;
+			productReference = E0E8C5F6152154750070E115 /* Zissou2d.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0E8C5ED152154750070E115 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = E0E8C5F0152154750070E115 /* Build configuration list for PBXProject "Zissou2d" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E0E8C5EB152154750070E115;
+			productRefGroup = E0E8C5F7152154750070E115 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0E8C5F5152154750070E115 /* Zissou2d */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0E8C5F4152154750070E115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E8C60E152154750070E115 /* MainStoryboard.storyboard in Resources */,
+				E0D967C515C5E98B00ECD837 /* fragment.glsl in Resources */,
+				E0D967C615C5E98B00ECD837 /* vertex.glsl in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0E8C5F2152154750070E115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E8C607152154750070E115 /* main.m in Sources */,
+				E0E8C60B152154750070E115 /* AppDelegate.m in Sources */,
+				E0E8C611152154750070E115 /* Steve.m in Sources */,
+				E058647B15C0B7FC00168416 /* Scene.m in Sources */,
+				E058648215C0C02A00168416 /* Entity.m in Sources */,
+				E058648615C0C7F600168416 /* IntroScene.m in Sources */,
+				E058648915C0F69700168416 /* Sprite.m in Sources */,
+				E0D967C715C5E98B00ECD837 /* GLProgram.m in Sources */,
+				E0D967D815C77ADC00ECD837 /* ProgramManager.m in Sources */,
+				E0D967DB15C7843100ECD837 /* TextureCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E0E8C60C152154750070E115 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0E8C60D152154750070E115 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0E8C612152154750070E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0E8C613152154750070E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0E8C615152154750070E115 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteveZissou/Zissou2d-Prefix.pch";
+				INFOPLIST_FILE = "SteveZissou/Zissou2d-Info.plist";
+				PRODUCT_NAME = Zissou2d;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E0E8C616152154750070E115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SteveZissou/Zissou2d-Prefix.pch";
+				INFOPLIST_FILE = "SteveZissou/Zissou2d-Info.plist";
+				PRODUCT_NAME = Zissou2d;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0E8C5F0152154750070E115 /* Build configuration list for PBXProject "Zissou2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E8C612152154750070E115 /* Debug */,
+				E0E8C613152154750070E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0E8C614152154750070E115 /* Build configuration list for PBXNativeTarget "Zissou2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0E8C615152154750070E115 /* Debug */,
+				E0E8C616152154750070E115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0E8C5ED152154750070E115 /* Project object */;
+}
