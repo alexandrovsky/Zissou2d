@@ -6,7 +6,6 @@
 
 - (void)draw
 {
-    [self.program use];
     NSLog(@"Drawing a sprite");
 }
 
